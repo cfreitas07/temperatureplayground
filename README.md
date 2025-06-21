@@ -29,7 +29,7 @@ A modern, user-friendly GUI application for real-time temperature monitoring and
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/TemperaturePlayground.git
+   git clone https://github.com/cfreitas07/TemperaturePlayground.git
    cd TemperaturePlayground
    ```
 
@@ -164,7 +164,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/TemperaturePlayground/issues) page
+1. Check the [Issues](https://github.com/cfreitas07/TemperaturePlayground/issues) page
 2. Create a new issue with detailed information
 3. Include your operating system and Python version
 
@@ -176,4 +176,4 @@ If you encounter any issues or have questions:
 
 ---
 
-⭐ **Star this repository if you find it useful!** 
+⭐ **Star this repository if you find it useful!**
