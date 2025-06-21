@@ -2,6 +2,8 @@
 
 A modern, user-friendly GUI application for real-time temperature monitoring and data collection using serial communication. Built with PyQt6 and designed for educational purposes in the 2025 Configurable Logic Design Challenge.
 
+![Image](https://github.com/user-attachments/assets/d6306262-3ff0-40dd-bacc-722578b2476d)
+
 ![Temperature Playground](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyQt6](https://img.shields.io/badge/PyQt6-6.6.1-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
