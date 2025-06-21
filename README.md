@@ -153,20 +153,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - PySerial for serial communication
 - The open-source community for inspiration and tools
 
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/cfreitas07/TemperaturePlayground/issues) page
-2. Create a new issue with detailed information
-3. Include your Windows version and Python version
-
 ## 🔄 Version History
 
 - **v1.0.0**: Initial release with basic temperature monitoring
 - Real-time plotting and data export functionality
 - Windows executable support
 
----
-
-⭐ **Star this repository if you find it useful!**
