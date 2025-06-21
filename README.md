@@ -1,6 +1,6 @@
 # 🌡️ Temperature Playground
 
-A modern, user-friendly GUI application for real-time temperature monitoring and data collection using serial communication. Built with PyQt6 and designed for educational purposes in the 2025 Configurable Logic Design Challenge.
+A modern, user-friendly GUI application for real-time temperature monitoring and data collection using serial communication. Built with PyQt6 and designed for educational purposes in the 2025 Configurable Logic Design Challenge: https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/Brochures/2025-Configurable-Logic-Design-Challenge-DS00005794.pdf
 
 ![Image](https://github.com/user-attachments/assets/d6306262-3ff0-40dd-bacc-722578b2476d)
 
@@ -152,12 +152,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Matplotlib for plotting capabilities
 - PySerial for serial communication
 - The open-source community for inspiration and tools
-
-## 🐛 Known Issues
-
-- Large executable size due to bundled Python dependencies
-- First launch may be slower on some systems
-- Serial port detection may vary between Windows versions
 
 ## 📞 Support
 
