@@ -14,13 +14,14 @@ A modern, user-friendly GUI application for real-time temperature monitoring and
 - **Interactive Plotting**: Real-time temperature history visualization using matplotlib
 - **Data Export**: Export collected data to CSV format for further analysis
 - **Calibration**: Temperature offset calibration for accurate readings
-- **Cross-platform**: Works on Windows, macOS, and Linux
+- **Windows Optimized**: Designed and tested for Windows systems
 - **Modern UI**: Beautiful, intuitive interface with Microchip blue theme
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
+- Windows 10 or later
 - Python 3.8 or higher
 - Serial port connection to a temperature sensor
 - Required Python packages (see requirements.txt)
@@ -67,22 +68,19 @@ temp: 25.5
 25.5
 ```
 
-## 🛠️ Building Executables
+## 🛠️ Building Windows Executable
 
-### Windows
+### Using PyInstaller
 ```bash
-pyinstaller --onefile --windowed --name=TemperaturePlayground serial_terminal.py
+pyinstaller --onefile --windowed --name=TemperaturePlayground --icon=temperature.ico serial_terminal.py
 ```
 
-### macOS
+### Using the Spec File
 ```bash
-python build_mac.py
+pyinstaller serial_terminal.spec
 ```
 
-### Linux
-```bash
-pyinstaller --onefile --windowed --name=TemperaturePlayground serial_terminal.py
-```
+The executable will be created in the `dist/` folder as `TemperaturePlayground.exe`.
 
 ## 📁 Project Structure
 
@@ -90,9 +88,8 @@ pyinstaller --onefile --windowed --name=TemperaturePlayground serial_terminal.py
 TemperaturePlayground/
 ├── serial_terminal.py      # Main application file
 ├── requirements.txt        # Python dependencies
-├── build_mac.py           # macOS build script
-├── README_MAC_BUILD.md    # macOS build guide
 ├── temperature.ico        # Application icon
+├── serial_terminal.spec   # PyInstaller spec file
 ├── dist/                  # Built executables
 └── build/                 # Build artifacts
 ```
@@ -158,7 +155,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Large executable size due to bundled Python dependencies
 - First launch may be slower on some systems
-- Serial port detection may vary between operating systems
+- Serial port detection may vary between Windows versions
 
 ## 📞 Support
 
@@ -166,13 +163,13 @@ If you encounter any issues or have questions:
 
 1. Check the [Issues](https://github.com/cfreitas07/TemperaturePlayground/issues) page
 2. Create a new issue with detailed information
-3. Include your operating system and Python version
+3. Include your Windows version and Python version
 
 ## 🔄 Version History
 
 - **v1.0.0**: Initial release with basic temperature monitoring
 - Real-time plotting and data export functionality
-- Cross-platform executable support
+- Windows executable support
 
 ---
 
